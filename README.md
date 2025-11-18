@@ -19,4 +19,5 @@ _Italica_
 ```PY
 for i in range(10):
     print(i)
+    variable=0
 ```
