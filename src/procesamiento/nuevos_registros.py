@@ -20,11 +20,11 @@ def validar_archivo_csv(ruta_archivo):
         if not os.path.exists(ruta_archivo):
             raise FileNotFoundError(f"❌ Archivo no encontrado: {ruta_archivo}")
         
-        # Verificar extensión
+        # Verificar extensión y que sí sea un archivo CSV
         if not ruta_archivo.lower().endswith('.csv'):
             raise ValueError(f"❌ Archivo no es CSV: {ruta_archivo}")
         
-        # Intentar leer primeras líneas
+        # Intentar leer primeras líneas y verifica que no esté vacío
         df = pd.read_csv(ruta_archivo, nrows=5)
         
         if df.empty:
@@ -76,14 +76,15 @@ def cargar_csv_seguro(ruta_archivo):
 
 def appendear_registros(df_principal, df_nueva):
     """
-    Appendea (agrega) nuevos registros al DataFrame principal.
+    Appendea (agrega) nuevos registros a la base de datos principal.
     
     Args:
-        df_principal (pd.DataFrame): DataFrame principal
-        df_nueva (pd.DataFrame): DataFrame con nuevos registros
+        df_principal (pd.DataFrame): base de datos principal
+        df_nueva (pd.DataFrame): base de datos con nuevos registros
+        
         
     Returns:
-        pd.DataFrame: DataFrame combinado
+        pd.DataFrame: base de datos combinado
     """
     try:
         # Verificar que tengan las mismas columnas
@@ -166,9 +167,3 @@ def limpiar_datos(df):
     except Exception as e:
         print(f"❌ Error al limpiar datos: {str(e)}")
         return df
-
-
-with open(f"{proyecto_dir}/procesamiento.py", "w", encoding="utf-8") as f:
-    f.write(procesamiento_py)
-
-print("✓ procesamiento.py creado")

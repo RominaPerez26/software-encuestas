@@ -62,7 +62,7 @@ def grafico_barras_genero_sede(df, ruta_graficos):
     try:
         print("\\n📊 Generando gráfico: Barras Género por Sede...")
         
-        fig, ax = plt.subplots(figsize=(12, 6))
+        fig, c
         
         # Datos de ejemplo
         sedes = ['Sede A', 'Sede B', 'Sede C']
@@ -195,8 +195,3 @@ def generar_todos_graficos(df, ruta_graficos):
     except Exception as e:
         print(f"❌ Error general al generar gráficos: {str(e)}")
 
-
-with open(f"{proyecto_dir}/graficos.py", "w", encoding="utf-8") as f:
-    f.write(graficos_py)
-
-print("✓ graficos.py creado")

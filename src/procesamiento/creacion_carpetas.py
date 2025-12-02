@@ -1,5 +1,5 @@
-from app import leer_informacion 
-from app import crear_archivo
+from procesamiento.app import leer_informacion 
+from procesamiento.app import crear_archivo
 import os 
 
 contenido = leer_informacion()
