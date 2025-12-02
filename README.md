@@ -6,23 +6,3 @@ El jefe de Talento Humano de una prestigiosa universidad cuenta con una base de 
 
 Se encomienda a un grupo de ingenieros el diseño e implementación de un programa en Python que procese esta información de manera eficiente y genere reportes útiles.
 
-## Que hace
-
-## Por que
-### Caso 1
-
-###### titulo super chiquito
-
-**Mi titulo con negrilla**
-
-_Italica_
-
-| Script              | Descripcion                     |
-|---------------------|---------------------------------|
-| `pip install`       | instala dependencias o librerias|
-
-```PY
-for i in range(10):
-    print(i)
-    variable=0
-```
