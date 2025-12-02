@@ -1,0 +1,61 @@
+\n============================================================
+📊 DATOS GENERALES DE REGISTRO
+============================================================
+\n📈 RESUMEN GENERAL
+------------------------------------------------------------
+  • Número de Sedes: 13
+  • Número de Programas Académicos: 126
+  • Cantidad Total de Estudiantes: 6549
+\n👥 DISTRIBUCIÓN POR GÉNERO
+------------------------------------------------------------
+  • Hombres: 2965 (45.3%)
+  • Mujeres: 3584 (54.7%)
+  • Otro: 0 (0.0%)
+
+--- Resultados de Conteo ---
+
+Top 5 Municipios de Residencia:
+NOMBRE_MUNI_VIVE
+RIONEGRO    706
+APARTADO    558
+CAUCASIA    509
+LA CEJA     399
+TURBO       376
+dtype: int64
+
+Top 3 Departamentos de Residencia:
+DEPARTAMENTO_VIVE
+ANTIOQUIA    6307
+CORDOBA       140
+BOYACA         15
+dtype: int64
+\n============================================================
+📊 DATOS GENERALES DE REGISTRO
+============================================================
+\n📈 RESUMEN GENERAL
+------------------------------------------------------------
+  • Número de Sedes: 13
+  • Número de Programas Académicos: 126
+  • Cantidad Total de Estudiantes: 6549
+\n👥 DISTRIBUCIÓN POR GÉNERO
+------------------------------------------------------------
+  • Hombres: 2965 (45.3%)
+  • Mujeres: 3584 (54.7%)
+  • Otro: 0 (0.0%)
+
+--- Resultados de Conteo ---
+
+Top 5 Municipios de Residencia:
+NOMBRE_MUNI_VIVE
+RIONEGRO    706
+APARTADO    558
+CAUCASIA    509
+LA CEJA     399
+TURBO       376
+dtype: int64
+
+Top 3 Departamentos de Residencia:
+DEPARTAMENTO_VIVE
+ANTIOQUIA    6307
+CORDOBA       140
+BOYACA         15
